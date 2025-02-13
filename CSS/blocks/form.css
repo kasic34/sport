@@ -1,0 +1,48 @@
+.form{
+    display: grid;
+    gap: 30px;
+
+}
+
+.label{
+    display: block;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    padding: 5px 0 9.5px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+
+.input::placeholder{
+    color: #fff;
+}
+
+.textarea{
+    resize: vertical;
+    max-height: 250px;
+
+    display: block;
+    padding: 5px 0 9.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 172px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.textarea:focus{
+    outline: none;
+}

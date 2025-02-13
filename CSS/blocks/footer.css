@@ -1,0 +1,46 @@
+.footer{
+    padding: 70px 0;
+}
+
+.footer a{
+    transition: all 0.2s ease-in;
+}
+
+.footer a:hover{
+    color: var(--accent);
+}
+
+.footer-socials{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer-contacts{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-contacts-col{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 200%;
+    color: #fafaf5;
+}
+
+@media (max-width: 600px){
+    .footer{
+        padding: 60px 0;
+    }
+
+    .footer-socials{
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer-contacts{
+        flex-direction: column;
+        row-gap: 15px
+    }
+}
